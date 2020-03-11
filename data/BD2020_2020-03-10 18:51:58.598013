@@ -1,0 +1,204 @@
+id,user_location,text,user_name,user_followers,id_str,created,retweet_count,polarity,subjectivity,time
+1,United States,"RT @Teri_Kanefield: 5/ Here is a sampling of the large accounts that spread the lie.
+
+As everyone on Twitter knows, a great many Bernie San…",MtnMD,84170,1237541723502305281,2020-03-11T00:51:53,0,0.5047619047619047,0.5595238095238095,2020-03-10T18:51:59.132496
+2,"Philadelphia, PA",RT @inthesetimesmag: A new survey by In These Times finds that CNN’s coverage of Sanders was 3 times more negative than its coverage of Bid…,AbyssalPresence,420,1237541724395696129,2020-03-11T00:51:54,0,0.11212121212121212,0.4515151515151515,2020-03-10T18:51:59.277389
+3,"Lexington, KY",RT @dad_darius: I gave just one question. Why?  https://t.co/03C8TLAKMP,JaneOdom19,749,1237541724643143682,2020-03-11T00:51:54,0,0.0,0.0,2020-03-10T18:51:59.347710
+4,I'm everywhere,"RT @esaagar: .@TuckerCarlson went scorched earth on Bernie Sanders inability to effectively attack Joe Biden tonight: ""He may be the lamest…",leavegoatalone,344,1237541724785803264,2020-03-11T00:51:54,0,0.6,0.8,2020-03-10T18:51:59.392111
+5,"Miami, FL and New York, NY","RT @riotwomennn: @Redistrict Let's hope Bernie Sanders does the right thing this time
+
+He should immediately endorse Biden and let's start…",publicityc,747,1237541724882268160,2020-03-11T00:51:54,0,0.2857142857142857,0.5357142857142857,2020-03-10T18:51:59.405242
+6,"New York, NY",RT @PpollingNumbers: Just In: 35 former Warren campaign staffers endorse Sanders,TimelessIntel,218,1237541728757747712,2020-03-11T00:51:55,0,0.0,0.0,2020-03-10T18:52:00.448256
+7,The Land of Lemon Pepper ,RT @CarmenTS: The biggest scam Bernie Sanders perpetrated is convincing his supporters that other Progressives WHO BELIEVE IN THE EXACT SAM…,sillyauntie,1702,1237541729961512960,2020-03-11T00:51:55,0,0.20833333333333334,0.5416666666666666,2020-03-10T18:52:00.605865
+8,"El Paso, TX",RT @PpollingNumbers: Just In: 35 former Warren campaign staffers endorse Sanders,TonyWestside088,1065,1237541731488247809,2020-03-11T00:51:55,0,0.0,0.0,2020-03-10T18:52:01.006006
+9,at a game-the gym,"RT @Babyblack1977: @TyrantTinyHands @Sistergetu @philosophrob I’m a Sanders supporter and I see the writing on the wall, Bernie isn’t going…",cmkahuna,1317,1237541733220544514,2020-03-11T00:51:56,0,0.0,0.0,2020-03-10T18:52:01.385623
+10,"Phoenix, AZ","RT @JoeyxRoss: My favorite part of the ""Bernie Sanders didn't have a job till he was 40"" thing is that you can literally google his resume…",nanabaillie,358,1237541733715435520,2020-03-11T00:51:56,0,0.5,1.0,2020-03-10T18:52:01.499995
+11,"London, England ",RT @shaunking: Was just told that some Democratic insiders are trying to see if they can completely cancel all future debates between Joe B…,HaydenCollins96,170,1237541735728742401,2020-03-11T00:51:56,0,0.05,0.2625,2020-03-10T18:52:01.974729
+12,"Chicago, IL","RT @nandorvila: Tomorrow is the next round of voting in the Democratic primary, and on a day in which the Biden camp leaked his intention t…",Jake_Ess,416,1237541735783268353,2020-03-11T00:51:56,0,0.06666666666666667,0.3,2020-03-10T18:52:01.987219
+13,New Jersey,"RT @daveweigel: It’s mixed. Medicare-for-all has been winning in exit polls, but Sanders hasn’t been getting every voter who backs it. 
+
+In…",Rooz739,777,1237541735732932609,2020-03-11T00:51:56,0,0.25,0.5,2020-03-10T18:52:02.003704
+14,Pennsylvania,"RT @D_Eric_L: Let's take a look at this. There's no toilet paper left, the water is gone, events are being canceled and people are acting c…",runforthehouse,5543,1237541737062486016,2020-03-11T00:51:57,0,0.005555555555555556,0.0,2020-03-10T18:52:02.305889
+15,The Pantry,"RT @TheHorrorGuru: IMPORTANT MESSAGE FOR MICHIGAN VOTERS:
+
+If you already voted for a candidate who dropped out you can RETRIEVE AND REPLAC…",Baked_Magician,77,1237541737121243137,2020-03-11T00:51:57,0,0.4,1.0,2020-03-10T18:52:02.353256
+16,"Sydney, Australia",RT @PreetBharara: Donald Trump is the greatest hoax ever perpetrated on America,NaturopathMax,859,1237541738828328960,2020-03-11T00:51:57,0,1.0,1.0,2020-03-10T18:52:02.716900
+17,"Burpelson AFB, NE","RT @AliciasTwoCents: We, the undersigned former alumni of Warren for President, are ready to get back in the fight for a progressive future…",DenyThemEssence,1030,1237541740090781696,2020-03-11T00:51:57,0,0.06666666666666667,0.16666666666666666,2020-03-10T18:52:03.086159
+18,"Washington, DC",“Turnout is going up for one reason. ... It's going up because Donald Trump is in office and Democrats are terrifie… https://t.co/dipjs307ex,jerry_jtaylor,9354,1237541741076443139,2020-03-11T00:51:58,0,0.0,0.0,2020-03-10T18:52:03.316770
+19,"Taichung City, Taiwan","时间：2020年3月8日 标题：《桑德斯称，美国“严重”的性别歧视是造成女性竞选总统的障碍》
+概述：华盛顿民主党总统候选人，参议员伯尼·桑德斯（Bernie Sanders）周日指出，性别歧视是造成女性竞选提名的障碍，此前参加竞选… https://t.co/VGz0wfzmq1",Peter03633861,1,1237541741831413761,2020-03-11T00:51:58,0,0.0,0.0,2020-03-10T18:52:03.463588
+20,Philadelphia,RT @joncoopertweets: Donald Trump’s campaign manager is quietly channeling money to Eric Trump’s wife and Donald Trump Jr.’s girlfriend. Th…,EaglezFan,724,1237541742049505280,2020-03-11T00:51:58,0,0.0,0.3333333333333333,2020-03-10T18:52:03.478146
+21,QLand ,RT @404___err0r: What?  CNN said Bernie Sanders wins Mississippi primary.  Then says not happening.  Removes the photo saying Bernie wins t…,littleoldme_2,2821,1237541742250831873,2020-03-11T00:51:58,0,0.3333333333333333,0.3,2020-03-10T18:52:03.550833
+22,United States,The establishment doesn’t care who wins as long as it’s not #BernieSanders We’ll have to just write in Bernie Sande… https://t.co/jBShLI8i4s,MsCocoDavi,6,1237541742720602112,2020-03-11T00:51:58,0,0.125,0.30000000000000004,2020-03-10T18:52:03.656796
+23,Manhattan,"Now that Joe Biden is the nominee, it's time to pivot 100% to Donald Trump.
+
+Anyone sniping at Biden after the resu… https://t.co/VhanFW0lSe",Zac_Petkanas,48254,1237541743484010496,2020-03-11T00:51:58,0,0.0,0.0,2020-03-10T18:52:03.844508
+24,Houston,RT @shaunking: Was just told that some Democratic insiders are trying to see if they can completely cancel all future debates between Joe B…,DylanTamez,244,1237541743551107072,2020-03-11T00:51:58,0,0.05,0.2625,2020-03-10T18:52:03.869963
+25,Baton Rouge 🚣🚣 the Valley,RT @johniadarola: It can't be overstated how significant this has been in the course of the primary.,JuboktimusPrime,1513,1237541745417584641,2020-03-11T00:51:59,0,0.3875,0.6875,2020-03-10T18:52:04.341020
+26," Clarkesdale, Mississippi","RT @esaagar: .@TuckerCarlson went scorched earth on Bernie Sanders inability to effectively attack Joe Biden tonight: ""He may be the lamest…",rwanda2007,215,1237541745589510144,2020-03-11T00:51:59,0,0.6,0.8,2020-03-10T18:52:04.343694
+27,Beautiful Northern California,"RT @SarahLongwell25: “...many of Mr. Biden’s college-educated, suburban supporters are right-leaning independents or moderate Republicans w…",UROCKlive1,131360,1237541746436788224,2020-03-11T00:51:59,0,0.0,0.35,2020-03-10T18:52:04.530889
+28,Alaska,"RT @AmoneyResists: Steve Mnuchin met with a Russian Ambassador today and signed an agreement that included:
+
+“Implementation of the arrange…",nomechick,1476,1237541746298351617,2020-03-11T00:51:59,0,0.0,0.0,2020-03-10T18:52:04.567826
+29,At sea.,"RT @Zac_Petkanas: It no longer matters if Bernie Sanders ekes out a win in Michigan.
+
+He's getting blown out in Mississippi and Missouri.…",AlexaRPerry,386,1237541746742976513,2020-03-11T00:51:59,0,0.8,0.4,2020-03-10T18:52:04.602422
+30,out on a limb whereTheFruit is,"@twh a vote for joe is a vote for trump.
+i am voting for Bernie Sanders in the primary (of my state, yet to go).
+i'… https://t.co/IYBxBA9Qny",notquitegonzo,521,1237541747011366912,2020-03-11T00:51:59,0,0.4,0.5,2020-03-10T18:52:04.698819
+31,"Chicago, IL",RT @Bakari_Sellers: .....and again.,KamalaBryan20,134,1237541747531509761,2020-03-11T00:51:59,0,0.0,0.0,2020-03-10T18:52:04.815014
+32,"St.Petersburg, FL",RT @guycecil: The math is now clear. Joe Biden is going to be the Democratic nominee for President and @prioritiesUSA is going to do everyt…,AnthonyClose,1228,1237541747917352960,2020-03-11T00:51:59,0,0.10000000000000002,0.3833333333333333,2020-03-10T18:52:04.896195
+33,"Chicago, Illinois","RT @MSNBC: .@clairecmc: ""If Biden is able to bring back home these white, non-college educated voters together with the suburban women who…",raelt,10353,1237541748680691714,2020-03-11T00:51:59,0,0.125,0.15625,2020-03-10T18:52:05.071010
+34,United States,RT @shaunking: Was just told that some Democratic insiders are trying to see if they can completely cancel all future debates between Joe B…,TrustInCyn,460,1237541749553131520,2020-03-11T00:52:00,0,0.05,0.2625,2020-03-10T18:52:05.268526
+35,Greater Boston,"If tonight continues as it has started, Bernie Sanders essentially has no chance of winning the nomination, and sho… https://t.co/N3uJDzFqKc",nearyd,2818,1237541749779619840,2020-03-11T00:52:00,0,0.25,0.525,2020-03-10T18:52:05.354294
+36,"Chicago, IL","RT @JoeyxRoss: My favorite part of the ""Bernie Sanders didn't have a job till he was 40"" thing is that you can literally google his resume…",house_kat_,299,1237541750408802304,2020-03-11T00:52:00,0,0.5,1.0,2020-03-10T18:52:05.477276
+37,Zamuda Via Wakanda ,RT @molly_knight: Becoming more obvious that tons of people who voted Bernie in ‘16 were really just voting against Hillary Clinton. Demora…,MLadyjm,6241,1237541750400364546,2020-03-11T00:52:00,0,0.2875,0.5125000000000001,2020-03-10T18:52:05.546015
+38,Panama City Beach Florida,RT @guardian: Democratic primaries: Joe Biden and Bernie Sanders face crucial test as six states vote – live https://t.co/oVi59w5i0K,gingin21,336,1237541750484287489,2020-03-11T00:52:00,0,0.06818181818181818,0.75,2020-03-10T18:52:05.710550
+39,"Washington, DC",no hesitation from the leading presidential Democratic super PAC,Alex_Roarty,12481,1237541751289565185,2020-03-11T00:52:00,0,0.3333333333333333,0.6666666666666666,2020-03-10T18:52:05.719904
+40,"Pennsylvania, USA","RT @ECMcLaughlin: This is accurate, and the right suggestion. https://t.co/ZvoJ1lwPKI",RuthBuddy1,21492,1237541742125015040,2020-03-11T00:51:58,0,0.34285714285714286,0.5845238095238096,2020-03-10T18:52:05.931223
+41,"El Paso, TX",RT @KyleKulinski: Thank you! And welcome!,TonyWestside088,1065,1237541751784493056,2020-03-11T00:52:00,0,1.0,0.9,2020-03-10T18:52:06.387309
+42,Southern Imagination,RT @Bakari_Sellers: .....and again.,AngiBelleM,226,1237541754171052032,2020-03-11T00:52:01,0,0.0,0.0,2020-03-10T18:52:06.411096
+43,At work in Michigan where else,"RT @GotCashed: If Bill Clinton was womanizing to lower the stress and anxiety level of being President of the United States, then what is h…",Jennife20311813,1494,1237541754678546433,2020-03-11T00:52:01,0,0.0,0.0,2020-03-10T18:52:06.508403
+44,Wisconsin,"RT @MaryCla90044582: Burnie backer..
+Who I would bet HALF his supporters are from the gay community...
+I doubt they are paying attention. h…",MadelynMardigan,470,1237541754569494528,2020-03-11T00:52:01,0,0.125,0.375,2020-03-10T18:52:06.514307
+45,"Lindenhurst, NY",RT @AnaKasparian: CNN’s Coverage of Sanders Was 3X More Negative Than Biden Following Their Big Primary Wins - In These Times: https://t.co…,chandlercastroo,179,1237541754884087809,2020-03-11T00:52:01,0,0.15000000000000002,0.3,2020-03-10T18:52:06.548269
+46,the depths of Silicon Valley,RT @Mediaite: Watch CNN Accidentally Call Mississippi for Bernie Sanders in Hilarious Graphics Snafu https://t.co/9KV5jDsVLx,Object_InSpace,614,1237541755370606594,2020-03-11T00:52:01,0,0.5,1.0,2020-03-10T18:52:06.693760
+47,"New Jersey, USA","it’s hard to imagine Bernie Sanders winning the nomination at this point, and i’m extremely disheartened. 
+
+Joe Bid… https://t.co/HaYvh6FzHh",ManSamp,1256,1237541755626504192,2020-03-11T00:52:01,0,0.027777777777777773,0.7638888888888888,2020-03-10T18:52:06.794164
+48,"Ypsilanti, MI","RT @BenjaminPDixon: Look, we just have irreconcilable differences and that happens. Sometimes you have to let go of an abusive relationship…",0DrewHarvey,72,1237541756075307010,2020-03-11T00:52:01,0,0.0,0.0,2020-03-10T18:52:06.859674
+49,santo domingo,RT @pico87mn: Lo que le robaron a Cuba,francisco_zp,2899,1237541756268240896,2020-03-11T00:52:01,0,0.0,0.0,2020-03-10T18:52:06.883459
+50,"California, USA","RT @Prosperous1776: For many labor organizers, Obama failure to pass card check a black mark for Biden https://t.co/8udb261Zwl
+
+The America…",Prosperous1776,27090,1237541756960292864,2020-03-11T00:52:01,0,0.005555555555555545,0.41111111111111115,2020-03-10T18:52:07.040613
+51,"Lincoln, NE",RT @inthesetimesmag: A new survey by In These Times finds that CNN’s coverage of Sanders was 3 times more negative than its coverage of Bid…,BretJofaceEvert,150,1237541738190786560,2020-03-11T00:51:57,0,0.11212121212121212,0.4515151515151515,2020-03-10T18:52:07.156807
+52,Global Citizen,Press: Bernie Sanders has already won | TheHill https://t.co/YpgsghvBHV #SmartNews,nevermore_007,23477,1237541757547507714,2020-03-11T00:52:02,0,0.0,0.0,2020-03-10T18:52:07.194440
+53,"Tumwater, WA",RT @KKyriakisJones: @PolarBarrett Amazing states that Biden wins know the results in less than 10 mins. States that go for BERNIE take days…,michaelagodd247,403,1237541757690056704,2020-03-11T00:52:02,0,0.2444444444444445,0.3888888888888889,2020-03-10T18:52:07.204562
+54,"Liverpool, England",Wonder where we've seen that before,Shiteke,639,1237541758549946368,2020-03-11T00:52:02,0,0.0,0.0,2020-03-10T18:52:07.515479
+55,"Hattiesburg, MS","RT @TheJordanRachel: There’s no water on the shelves, no toilet paper, events are being canceled.... it’s like a Bernie Sanders test run",ReedRay1996,172,1237541760668037120,2020-03-11T00:52:02,0,0.016666666666666666,0.0,2020-03-10T18:52:07.929948
+56,Earth,"RT @PopCrave: .@Halsey officially endorses Bernie Sanders in the 2020 Presidential Election:
+
+""Bernie was fighting for me before I was even…",ponderingTheDay,879,1237541761154609152,2020-03-11T00:52:02,0,0.0,0.0,2020-03-10T18:52:08.048590
+57,"Los Angeles, CA",@WandawomanW @BernieSanders Nah Bernie Sanders just flopped😂👎🏿,Kanye_For_Trump,73,1237541761192325120,2020-03-11T00:52:02,0,0.0,0.0,2020-03-10T18:52:08.063448
+58,USA ,"Everyone knows this, but if anyone thinks it will make any difference in Warren's and @MSNBC 's concern trolling &amp;… https://t.co/2c8AMizqTI",freespeechlover,2596,1237541761137831937,2020-03-11T00:52:02,0,0.0,0.0,2020-03-10T18:52:08.079673
+59,東京,RT @TomoMachi: 民主党の大統領予備選は今日のミシガン州でバイデン対サンダース の一騎討ちになる。バイデンは民主党員、高齢者、富裕層、労働組合、黒人キリスト教徒の支持を集め、サンダースは無党派、若者、貧困層、それにイスラム教徒の支持を得ている。ミシガンは全米でも最も…,ATS_79,118,1237541761678860290,2020-03-11T00:52:03,0,0.0,0.0,2020-03-10T18:52:08.178173
+60,"Orange County,CA","RT @walter_cons: The same petty, divisive &amp; misogynistic Bernie Sanders supporters, whose bigoted Native American &amp; Anti-Women comments dro…",TheChrisCo11,113,1237541761842434048,2020-03-11T00:52:03,0,0.0,0.0625,2020-03-10T18:52:08.218493
+61,"National Harbor, MD","RT @MSNBC: .@clairecmc: ""If Biden is able to bring back home these white, non-college educated voters together with the suburban women who…",FashionMaven88,1111,1237541762178011138,2020-03-11T00:52:03,0,0.125,0.15625,2020-03-10T18:52:08.322572
+62,"Los Angeles, CA","RT @philosophrob: If Joe Biden is the Democratic nominee I will be voting third party or writing-in Bernie Sanders.
+
+""I'd rather vote for s…",edmondraymer,122,1237541762677141504,2020-03-11T00:52:03,0,0.0,0.0,2020-03-10T18:52:08.411582
+63,"Charlotte, North Carolina ",@DanRather 🥊🥊 it’s time for the standing 8 count Bernie Sanders is finished! Michigan is the knockout blow,EricHar97044491,79,1237541763549519873,2020-03-11T00:52:03,0,0.0,0.0,2020-03-10T18:52:08.608245
+64,United States,RT @jacobinmag: Bernie Sanders challenged Joe Biden to an hour-long debate on health care last week. But Biden still hasn’t taken him up on…,Kandice_K_,1504,1237541764556132353,2020-03-11T00:52:03,0,0.0,0.06666666666666667,2020-03-10T18:52:08.944979
+65,"North Carolina, USA",RT @shaunking: Was just told that some Democratic insiders are trying to see if they can completely cancel all future debates between Joe B…,sallyodum,8232,1237541764627443714,2020-03-11T00:52:03,0,0.05,0.2625,2020-03-10T18:52:08.948536
+66,The Newest of Jerseys,RT @nileriverr: https://t.co/ZEDynzunu6,Hortonn_,595,1237541765336289280,2020-03-11T00:52:03,0,0.0,0.0,2020-03-10T18:52:09.057579
+67,she/her 🏳‍🌈                 ,RT @lilactaeil: Bernie Sanders is a Mooni,kunsbffie,986,1237541765478903809,2020-03-11T00:52:03,0,0.0,0.0,2020-03-10T18:52:09.081539
+68,"ÜT: 39.064563,-108.459795",RT @molly_knight: Becoming more obvious that tons of people who voted Bernie in ‘16 were really just voting against Hillary Clinton. Demora…,StephanAnthony,127,1237541765541801984,2020-03-11T00:52:03,0,0.2875,0.5125000000000001,2020-03-10T18:52:09.104843
+69,FL,"RT @ThomasIsOnline: Donald Trump WISHES he pulled off voter suppression as well as the DNC
+
+16 polling sites in the General Election in Far…",NickRiddleSSBB,1527,1237541765722165249,2020-03-11T00:52:04,0,0.05000000000000002,0.5,2020-03-10T18:52:09.141326
+70,syrian arab republic ,"Supporting Social Democrats like Bernie Sanders does not make you a socialist, it makes you quite the opposite. Ber… https://t.co/T7GihUxgI9",retiredthinker_,3,1237541766733021185,2020-03-11T00:52:04,0,0.09444444444444444,0.10555555555555556,2020-03-10T18:52:09.384256
+71,United States,He's toast.,Neoavatara,31460,1237541766691033089,2020-03-11T00:52:04,0,0.0,0.0,2020-03-10T18:52:09.397097
+72,México,RT @GravelInstitute: Go vote for Bernie Sanders today!,RandalZ,607,1237541767337017344,2020-03-11T00:52:04,0,0.0,0.0,2020-03-10T18:52:09.516134
+73,"Conway,Arkansas",RT @Bakari_Sellers: Guys....this may be a thing. Someone smarter than me like @PeterHamby or @RonBrownstein should write a thing on this. h…,angelicstarr121,304,1237541767525724160,2020-03-11T00:52:04,0,0.0,0.0,2020-03-10T18:52:09.615078
+74,"Baltimore, MD",RT @guycecil: The math is now clear. Joe Biden is going to be the Democratic nominee for President and @prioritiesUSA is going to do everyt…,Dartagnan_Llore,3168,1237541768159055873,2020-03-11T00:52:04,0,0.10000000000000002,0.3833333333333333,2020-03-10T18:52:09.710347
+75,"San Diego, CA",RT @shaunking: Was just told that some Democratic insiders are trying to see if they can completely cancel all future debates between Joe B…,MathewAntonious,275,1237541768708501504,2020-03-11T00:52:04,0,0.05,0.2625,2020-03-10T18:52:09.846472
+76,"Scarborough, ME",#HidenBiden,aquirko,389,1237541769937485824,2020-03-11T00:52:05,0,0.0,0.0,2020-03-10T18:52:10.153837
+77,Hyman Brand Hebrew Academy,Love politics? Read Ethans new article today! https://t.co/lcsUWBVVMv https://t.co/xfvipSM5NU,RampageWired,53,1237541769857789954,2020-03-11T00:52:05,0,0.3352272727272727,0.5272727272727272,2020-03-10T18:52:10.258039
+78,"Atlanta, GA","RT @thehill: Sen. Bernie Sanders: ""Wall Street is now emptying their checkbooks for Joe Biden."" https://t.co/fOlaLThyWl",Vote4Progress,1674,1237541771556425729,2020-03-11T00:52:05,0,0.0,0.0,2020-03-10T18:52:10.549206
+79,"Austin, TX","RT @shaunking: And here we go. 
+
+James Clyburn is now literally saying that the debates should be canceled.",logang2695,1141,1237541771908747264,2020-03-11T00:52:05,0,0.0,0.0,2020-03-10T18:52:10.618665
+80,"Tennessee, USA","RT @MomJar1: Recline-a-thon
+
+Very age appropriate
+
+Maybe Biden sitting means more blood glow to his head? https://t.co/0i0COb6S0N",WalnutDrummer,3341,1237541771816534018,2020-03-11T00:52:05,0,0.39999999999999997,0.43333333333333335,2020-03-10T18:52:10.623463
+81,"Alabama, USA","RT @Zac_Petkanas: It no longer matters if Bernie Sanders ekes out a win in Michigan.
+
+He's getting blown out in Mississippi and Missouri.…",celset2,330,1237541772433084417,2020-03-11T00:52:05,0,0.8,0.4,2020-03-10T18:52:10.726460
+82,"Washington, DC","RT @esaagar: .@TuckerCarlson went scorched earth on Bernie Sanders inability to effectively attack Joe Biden tonight: ""He may be the lamest…",Liam_Lemus,823,1237541772495970305,2020-03-11T00:52:05,0,0.6,0.8,2020-03-10T18:52:10.736133
+83,"Toronto, Ontario",Bernie Sanders Brings On Terrorist Supporter as Senior Adviser | Frontpagemag - vote #Trump2020Landslide vote… https://t.co/4GvdsP27MD,sandyteez,11760,1237541773708161024,2020-03-11T00:52:05,0,0.0,0.0,2020-03-10T18:52:11.064994
+84,🇺🇸🇨🇦 Dual Citenzship ,RT @dad_darius: The fact that Trump May Have Been 'Fleeced' in Taliban Peace Deal should come as no surprise to anyone who has has the misf…,TammyMe30796525,609,1237541774265962496,2020-03-11T00:52:06,0,0.0,0.0,2020-03-10T18:52:11.180612
+85,"Greenville, SC",@JRubinBlogger Really happy to see the dem party choosing 4 more years of your guy Donald Trump and putting up the… https://t.co/1JOUuVV2Jw,newconciousness,1559,1237541774903504896,2020-03-11T00:52:06,0,0.65,0.75,2020-03-10T18:52:11.334276
+86,Illinois,"RT @AmoneyResists: Steve Mnuchin met with a Russian Ambassador today and signed an agreement that included:
+
+“Implementation of the arrange…",midwestfinn,247,1237541775029362688,2020-03-11T00:52:06,0,0.0,0.0,2020-03-10T18:52:11.382467
+87,"Ontario, Canada","RT @charlesadler: If there was any doubt that the Americans most motivated to end the #Trump era, would turn out to vote in #2020, let it b…",janetscott73,622,1237541775218073601,2020-03-11T00:52:06,0,0.5,0.5,2020-03-10T18:52:11.428750
+88,"Springfield, MO",AP PROJECTION: Donald Trump wins Missouri Republican presidential primary: https://t.co/hnCUlwYo9V,kytv,89911,1237541775654260736,2020-03-11T00:52:06,0,0.35,0.35,2020-03-10T18:52:11.512158
+89,"Minnesota, USA",@windgait @4everNeverTrump @BilldeBlasio @ewarren @BernieSanders Bernie Sanders had nothing to do with Hillary losi… https://t.co/XtmEkeLrby,Thee_MikeYoung,81,1237541775775920129,2020-03-11T00:52:06,0,0.0,0.0,2020-03-10T18:52:11.537350
+90,"London, England","RT @Bill_Maxwell_: Rally for #TeamJoe!!🌊🌊🌊
+
+Grow your Resistance family:
+Like
+Retweet
+Comment
+
+*Projected winner in Mississippi and Missour…",frejac19,4934,1237541776656752641,2020-03-11T00:52:06,0,0.0,0.0,2020-03-10T18:52:11.728719
+91,"Seattle, WA","RT @esaagar: .@TuckerCarlson went scorched earth on Bernie Sanders inability to effectively attack Joe Biden tonight: ""He may be the lamest…",RentonSocialist,1822,1237541777621438465,2020-03-11T00:52:06,0,0.6,0.8,2020-03-10T18:52:11.952045
+92,"Jupiter, FL","RT @WordswithSteph: Michigan GOP mayor ditches 'DERANGED' Trump, endorses Biden for president 
+
+Thank you to all Republicans nationwide who…",jupitergirl,3036,1237541778653196289,2020-03-11T00:52:07,0,0.0,0.0,2020-03-10T18:52:12.242209
+93,Western Massachusetts,"RT @esaagar: .@TuckerCarlson went scorched earth on Bernie Sanders inability to effectively attack Joe Biden tonight: ""He may be the lamest…",jaywolf83,841,1237541779852759042,2020-03-11T00:52:07,0,0.6,0.8,2020-03-10T18:52:12.502578
+94,california,"RT @esaagar: .@TuckerCarlson went scorched earth on Bernie Sanders inability to effectively attack Joe Biden tonight: ""He may be the lamest…",Lydia_o_0,120,1237541781320810500,2020-03-11T00:52:07,0,0.6,0.8,2020-03-10T18:52:12.863314
+95,"Georgia, USA","RT @KelemenCari: ""I'm not working for you.""
+- Joe Biden
+
+""I will fight for you with every breath in my body – and I will never, ever let yo…",hobbs_velinda,16,1237541781371150339,2020-03-11T00:52:07,0,0.0,0.0,2020-03-10T18:52:12.867099
+96,Duval,"RT @politico: A little delegate math: With Joe Biden's win in Mississippi, we've crossed a threshold. Bernie Sanders would now need to win…",BCBCouch,1542,1237541781459226625,2020-03-11T00:52:07,0,0.30625,0.45,2020-03-10T18:52:12.884897
+97,Where ever Mike puts me yo. ,RT @ppppolls: Biden leads Sanders 401-208 in the professor heavy Ann Arbor precinct I grew up in- likely would have been strong for Warren…,mikessweater,81,1237541783350824963,2020-03-11T00:52:08,0,0.07777777777777777,0.7444444444444445,2020-03-10T18:52:13.332900
+98,"Augusta, GA",RT @4noura: Let’s go amo Bernie. You remain so on point &amp; COVID-19 risk has proven your point: better wages &amp; labor conditions mean workers…,aymanfadel,2019,1237541783917101057,2020-03-11T00:52:08,0,0.09375,0.59375,2020-03-10T18:52:13.475608
+99,St Katharine’s and Wapping,Bernie Sanders can't #DemExit given he was never really a Democrat in the first place. 🤷‍♂️,MrDominicBuxton,16496,1237541783971622912,2020-03-11T00:52:08,0,0.075,0.26666666666666666,2020-03-10T18:52:13.478303
+100,Earth 🌎,RT @AlysonMetzger: “I stand with Bernie Sanders today because he stood with me. I stand with him because he never lost his taste for justic…,ejwensing,3369,1237541783988396032,2020-03-11T00:52:08,0,0.0,0.0,2020-03-10T18:52:13.516547
+101,"Seattle, WA","RT @Zac_Petkanas: It no longer matters if Bernie Sanders ekes out a win in Michigan.
+
+He's getting blown out in Mississippi and Missouri.…",sunflowerinsea,1655,1237541784273571840,2020-03-11T00:52:08,0,0.8,0.4,2020-03-10T18:52:13.556375
+102,"Los Angeles, CA","Bernie Sanders is pathetic and doesn’t want to win... if he really wanted to win, he would tell the truth about Joe Biden’s brain loss...",whatisgohiso,18,1237541784730755073,2020-03-11T00:52:08,0,0.2,0.5,2020-03-10T18:52:13.649485
+103,"Charleston, SC ","RT @PreetBharara: After today, I stand by every word of this tweet thread",NancyLMadden,351,1237541784726564865,2020-03-11T00:52:08,0,0.0,0.0,2020-03-10T18:52:13.686289
+104,"Amsterdam, The Netherlands",RT @shaunking: Was just told that some Democratic insiders are trying to see if they can completely cancel all future debates between Joe B…,team_bernie2020,20,1237541784932106240,2020-03-11T00:52:08,0,0.05,0.2625,2020-03-10T18:52:13.695947
+105,"Connecticut, USA-lviv","RT @JuliaDavisNews: Putin’s Real Goal Is Kneecapping American Democracy
+
+The Kremlin’s minions may seem to push Bernie Sanders, Tulsi Gabba…",taras_terry,260,1237541785355730944,2020-03-11T00:52:08,0,0.1,0.15000000000000002,2020-03-10T18:52:13.812358
+106,NJ,RT @TweetingYarnie: Bernie Sanders and his supporters have been vilified just because we are inspired by his vision and formed a mass movem…,PLecca39,508,1237541786022641664,2020-03-11T00:52:08,0,0.0,0.0,2020-03-10T18:52:13.963739
+107,"Toledo, OH",RT @axios: Joe Biden and Bernie Sanders will not debate in front of a live audience at this weekend's debate in Arizona out of caution for…,SSSchnerer,115,1237541786202996737,2020-03-11T00:52:08,0,0.13636363636363635,0.5,2020-03-10T18:52:14.010791
+108,Natal,Na lógica do Pedro o Sanders por ser socialista não deve fazer campanha seguindo as regras legais e econômicas esta… https://t.co/SW6chuiStk,ananias_1979,727,1237541786962157570,2020-03-11T00:52:09,0,0.0,0.0,2020-03-10T18:52:14.258052
+109,"Manhattan, NY",“Joe Biden has the best chance at beating Donald Trump. Vote blue no m-“ https://t.co/bnEtPeKGyd,metsandthememes,1296,1237541787708735488,2020-03-11T00:52:09,0,0.5,0.2,2020-03-10T18:52:14.429727
+110,Piercing the heavens ,"RT @Zac_Petkanas: Now that Joe Biden is the nominee, it's time to pivot 100% to Donald Trump.
+
+Anyone sniping at Biden after the results to…",Anime_Now90,1113,1237541788480499712,2020-03-11T00:52:09,0,0.0,0.0,2020-03-10T18:52:14.552793
+111,New Jersey,"RT @AmoneyResists: Steve Mnuchin met with a Russian Ambassador today and signed an agreement that included:
+
+“Implementation of the arrange…",gayleallan7,6750,1237541788690178049,2020-03-11T00:52:09,0,0.0,0.0,2020-03-10T18:52:14.628135
+112,"Scottsdale, AZ",RT @xeni: RIP Bernie Sanders' campaign.,lauraspannagel1,38,1237541789285773312,2020-03-11T00:52:09,0,0.0,0.0,2020-03-10T18:52:14.735607
+113,"Florida, USA","RT @proviewsusa: Bernie Sanders Versus the World
+
+HE'S NOT ALONE. 
+
+https://t.co/wHUPdq5ZpG",LazyModerates,216,1237541789747142658,2020-03-11T00:52:09,0,0.0,0.0,2020-03-10T18:52:14.875477
+114,"Washington, DC",RT @guycecil: The math is now clear. Joe Biden is going to be the Democratic nominee for President and @prioritiesUSA is going to do everyt…,JoshSchwerin,34415,1237541791085150209,2020-03-11T00:52:10,0,0.10000000000000002,0.3833333333333333,2020-03-10T18:52:15.177214
+115,Colorado,"RT @SenKevinCramer: Whether he faces Bernie Sanders or Joe Biden, President @realDonaldTrump has a very good message for Michigan and all t…",waddsi,2325,1237541793098379264,2020-03-11T00:52:10,0,0.9099999999999999,0.7800000000000001,2020-03-10T18:52:15.706941
+116,"Oklahoma, USA",RT @criticalthotcop: Joe Biden is STOMPING Bernie Sanders right now.,books2luv,2022,1237541793316499460,2020-03-11T00:52:10,0,0.2857142857142857,0.5357142857142857,2020-03-10T18:52:15.709605
+117,Canada,"""Homosexuality is a disorder""",HaroldBirdman,93,1237541794310545409,2020-03-11T00:52:10,0,0.0,0.0,2020-03-10T18:52:16.013069
+118,"Oklahoma, USA",RT @HKrassenstein: Donald Trump says that all Democrats want to get rid of cars.  Tell me again who has cognitive decline!,OkJoAnn,1218,1237541795237490690,2020-03-11T00:52:11,0,0.0,0.0,2020-03-10T18:52:16.169671
+119,Somewhere on the left,RT @LRe97: #COVID19 #Trumpdemic,MaireRua,23714,1237541796445433856,2020-03-11T00:52:11,0,0.0,0.0,2020-03-10T18:52:16.526396
+120,"Philadelphia, PA","I'M YELLING INTO THE VOID- LIBERALS- STOP THIS NONSENSE- THE PARTY IS NOT YOUR FRIEND
+
+Okay sorry I'm done yelling.… https://t.co/xifya1I7j3",Jawn_Hancock,2650,1237541796718055424,2020-03-11T00:52:11,0,0.0,0.75,2020-03-10T18:52:16.555635
+121,"Philadelphia, PA",RT @xeni: RIP Bernie Sanders' campaign.,mschwartz95,1222,1237541798127394817,2020-03-11T00:52:11,0,0.0,0.0,2020-03-10T18:52:16.936168
+122,"Fairfax, VA",Go whine with Trump Bernie. Maybe you just aren’t all THAT.,KimbaResists,225,1237541798316105728,2020-03-11T00:52:11,0,0.0,0.0,2020-03-10T18:52:16.939811
+123,"Portland, OR",RT @PpollingNumbers: Just In: 35 former Warren campaign staffers endorse Sanders,R_Cadey,301,1237541799230488576,2020-03-11T00:52:12,0,0.0,0.0,2020-03-10T18:52:17.151417
+124,"New Orleans, Louisiana","RT @ChrisJZullo: @realDonaldTrump Do nothing my ass. Democrats in Congress have passed literally 400 bills addressing infrastructure, healt…",BethBourgeois,768,1237541800304201733,2020-03-11T00:52:12,0,0.0,0.0,2020-03-10T18:52:17.444936
+125,"Mountain House, CA",RT @jacobinmag: Noam Chomsky says that Bernie Sanders is vilified by the media because he’s trying to shape US politics in the interest of…,TBEXTLOD,199,1237541801147297793,2020-03-11T00:52:12,0,0.0,0.0,2020-03-10T18:52:17.579579
+126,"Hopkins, Michigan","RT @Weinsteinlaw: People and groups most frightened by the prospect of a President @JoeBiden:
+
+NRA
+Donald Trump 
+Vladimir Putin 
+
+Any quest…",zintaaistars,2137,1237541801839308800,2020-03-11T00:52:12,0,0.5,0.5,2020-03-10T18:52:17.764376
+127,"Florida, USA",RT @joncoopertweets: Republican Mayor Drops Donald Trump for Joe Biden in Key Swing State of Michigan https://t.co/KsqI2cUFBF,marynlm,19637,1237541801969340417,2020-03-11T00:52:12,0,0.0,1.0,2020-03-10T18:52:17.790409
+128,"Manhattan, NY","RT @ebruenig: Backstage at his Detroit rally Friday, I asked @BernieSanders what keeps him fighting. “It’s not my style to give up,” he tol…",JxnHrs,36,1237541802569129984,2020-03-11T00:52:12,0,0.0,0.0,2020-03-10T18:52:17.930811
+129,"Atlanta, Ga",❤️,DarleneATL,568,1237541803672272896,2020-03-11T00:52:13,0,0.0,0.0,2020-03-10T18:52:18.201977
+130,New York,RT @isaiah_kb: 🥴 https://t.co/tK6o7KVJKW,Nikydooo,131,1237541803974262785,2020-03-11T00:52:13,0,0.0,0.0,2020-03-10T18:52:18.289660
+131,"Tennessee, USA",Established black folks sure don’t!!!!! #BlackWomenVote #WhenWeVote #WeAREtheVote,TnCutie1908,118,1237541804389482498,2020-03-11T00:52:13,0,0.4166666666666667,0.6611111111111111,2020-03-10T18:52:18.364226
+132,"New York, NY",RT @molly_knight: Becoming more obvious that tons of people who voted Bernie in ‘16 were really just voting against Hillary Clinton. Demora…,PorterFrancis,83,1237541805324824577,2020-03-11T00:52:13,0,0.2875,0.5125000000000001,2020-03-10T18:52:18.600111

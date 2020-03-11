@@ -1,0 +1,13 @@
+# Python
+private.py
+__pycache__
+private.pyc
+tweets.db
+
+# Apple
+.DS_store
+
+#VSCode
+.vscode
+
+
