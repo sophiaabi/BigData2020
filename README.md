@@ -18,14 +18,9 @@ ToDo:
 - Filter tweets via date 
 - Create a map on the web application
 
+Starting Flask App:
 
-
-Starting Flask App
-
-  $ cd Flask_App
-
-  $ . venv/bin/activate
-
-  $ export FLASK_APP=app.py
-
-  $ flask run
+- cd Flask_App
+- . venv/bin/activate
+- export FLASK_APP=app.py
+- flask run
