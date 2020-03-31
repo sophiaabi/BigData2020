@@ -22,6 +22,9 @@ ToDo:
 Starting Flask App
 
 $ cd Flask_App
+
 $ . venv/bin/activate
+
 $ export FLASK_APP=app.py
+
 $ flask run
