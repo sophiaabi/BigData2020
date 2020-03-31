@@ -19,12 +19,13 @@ ToDo:
 - Create a map on the web application
 
 
+
 Starting Flask App
 
-$ cd Flask_App
+  $ cd Flask_App
 
-$ . venv/bin/activate
+  $ . venv/bin/activate
 
-$ export FLASK_APP=app.py
+  $ export FLASK_APP=app.py
 
-$ flask run
+  $ flask run
