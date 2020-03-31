@@ -17,3 +17,11 @@ ToDo:
 - Filter tweets via tracked term (not sure how to do this)
 - Filter tweets via date 
 - Create a map on the web application
+
+
+Starting Flask App
+
+$ cd Flask_App
+$ . venv/bin/activate
+$ export FLASK_APP=app.py
+$ flask run
