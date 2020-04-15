@@ -1,0 +1,122 @@
+body{
+	margin:0px ;
+	font-family:'Montserrat',sans-serif;
+	background-color:rgb(185,185,185) ;
+}
+
+p{
+	text-align:center;
+	font-size:150%;
+	font-weight:400;
+}
+
+#container{ /*A box that will contain the entire website for centering purposes*/
+	width:100% ; /*The container will try to fill the entire browser window width*/
+	max-width:960px ; /*the maximum width the container will grow to*/
+	margin:0px auto ; /*This line of code is the key.  0px margin top and bottom, auto margin left and right to center*/
+	
+	padding:15px ;
+	box-sizing:border-box ;/*Makes it so that padding does not add to a box's total width*/
+	font-color:white;
+
+	display:flex ;
+	flex-wrap:wrap ; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row ; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start ; /*flex-start, flex-end, center, stretch, space-between, space around*/
+	align-items:center ; /*flex-end, center, stretch, baseline*/
+	border-radius: 25px ;
+}
+
+.navbar{
+	width:100% ;
+	font-size:200% ;
+	background-color:white ;
+	box-sizing:border-box ;
+	text-align:left ; /*left, right, center, justify*/
+	padding-top:15px ;
+	padding-bottom:15px ;
+	
+}
+
+.halfwidth{
+	margin-top:3%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:3%;
+	width:30%;
+	padding:1%;
+	box-sizing:border-box;
+	border-radius: 50%;
+	justify-content:center;
+}
+
+#biden{
+	background-color:rgb(48, 96, 217);
+
+}
+
+#trump{
+	background-color:rgb(232, 32, 36);
+}
+
+#info{
+	background-color:white;
+	font-color:black;
+
+}
+.fullwidth{
+	margin:0%;
+	width:100%;
+	box-sizing:border-box;
+	background-color:white;
+	justify-content:center;
+}
+
+img{
+	max-width:100%;
+	border-radius:50%;
+}
+
+svg{
+	padding-bottom:50px;
+}
+
+article{
+	
+	width:100%;
+	background-color:white;
+	padding:0px;
+	box-sizing:border-box;
+
+	/*The article needs its own flex properties since it contains sections 
+	which will be flexing*/
+	display:flex;
+	flex-wrap:wrap; /*wrap, nowrap, wrap-reverse*/
+	flex-direction:row; /*row, row-reverse, column, column-reverse*/
+	align-content:flex-start; /*flex-start, flex-end, center, stretch, space-between, space-around*/
+	align-items:stretch; /*flex-end, center, stretch, baseline*/
+}
+
+
+
+.navbar-brand{
+	color:rgb(185,185,185) ;
+	margin:20px ;
+	text-decoration:none ;
+}
+
+.wrapper{
+	display:flex;
+	justify-content:center;
+	padding-bottom:10px;
+}
+
+.state{
+	fill:black;
+}
+
+#president_title{
+	color:black;
+	font-weight:400;
+	font-family:'Montserrat',sans-serif;
+}
