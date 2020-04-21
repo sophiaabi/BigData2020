@@ -7,6 +7,9 @@ from datetime import datetime
 from sqlalchemy.exc import ProgrammingError
 from textblob import TextBlob
 from datafreeze import freeze
+import logging
+import boto3
+from botocore.exceptions import ClientError
 
 
 
@@ -14,7 +17,9 @@ from datafreeze import freeze
 
 csvFileName = "BD2020_" + str(datetime.now())
 
-terms = ["Donald Trump", "Bernie Sanders",  "Bill Clinton"]
+donnnyBoyTerms = ["Donald Trump", "Trump", "Donald", "DonaldTrump"]
+
+msLewinskyTerms = ["Bill Clinton", "Bill", "Clinton", "BillClinton"]
 
 sqlTableName = csvFileName + "_table"
 
@@ -22,7 +27,7 @@ sqlConnectionString = "sqlite:///tweets.db"
 
 db = dataset.connect(sqlConnectionString)
 
-streamTimeLimit = 20
+streamTimeLimit = 30
 
 
 
@@ -30,16 +35,17 @@ streamTimeLimit = 20
 
 class StreamListener(tweepy.StreamListener):
 	
-	def __init__(self, time_limit=streamTimeLimit):
+	def __init__(self, time_limit, term):
 		self.start_time = time.time()
 		self.limit = time_limit
 		self.count = 0
+		self.tracked_term = term
 		super(StreamListener, self).__init__()
 	
 	# each time we get a tweet this method is called
 	def on_status(self, status):
 		self.count +=1
-		if (time.time() - self.start_time) < self.limit:
+		if (time.time() - self.start_time) < self.limit and self.count < 50:
 
 			# we dont care about retweets
 			if status.retweeted:
@@ -54,23 +60,19 @@ class StreamListener(tweepy.StreamListener):
 			created = status.created_at
 			retweets = status.retweet_count
 			blob = TextBlob(text)
-			sent = blob.sentiment
+			sent = blob.sentiment.polarity
 			time_stamp = datetime.now()
 
 			# need location since we are adding to a map
 			if loc is None:
 				return
 
-			# need positive tweets otherwise our data holds no significance
-			if sent.polarity < 0:
-				return
-
-			print("Tweet from: " + str(loc))
-			addItem(db, loc, text, name, followers, id_str, created, retweets, blob, sent,time_stamp)
+			print("Tweet sent: " + str(sent))
+			addItem(db, loc, text, name, followers, id_str, created, retweets, blob, sent, time_stamp)
 			return True
 
 		else:
-			exportCSV()
+			exportCSV(self.tracked_term)
 			return False
 
 		
@@ -96,20 +98,50 @@ def addItem(db, loc, text, name, followers, id_str, created, retweets, blob, sen
 			id_str=id_str,
 			created=created,
 			retweet_count=retweets,
-			polarity=sent.polarity,
-			subjectivity=sent.subjectivity,
+			polarity=sent,
 			time = time_stamp
 		))
 	except ProgrammingError as err:
 		print(err)
 
 # Method to write to unique csv file that we will later query
-def exportCSV():
-	print("Export data to csv: " + csvFileName)
+def exportCSV(canidateName):
+	print("Export data to csv: " + canidateName + "_" + csvFileName)
 	db = dataset.connect(sqlConnectionString)
 	result = db[sqlTableName].all()
-	freeze(result, format='csv', filename= "data/" + csvFileName)
+	newFileName = "data/" + canidateName + "_" + csvFileName
+	freeze(result, format='csv', filename= newFileName)
 
+	if canidateName == "B":
+		bucket = "bd2020billtweets"
+	else:
+		bucket = "bd2020donaldtweets"
+	upload_file(newFileName, bucket )
+
+
+# -------------------------------------- AWS Metzhods ----------------------------------- #
+
+def upload_file(file_name, bucket, object_name=None):
+    """Upload a file to an S3 bucket
+
+    :param file_name: File to upload
+    :param bucket: Bucket to upload to
+    :param object_name: S3 object name. If not specified then file_name is used
+    :return: True if file was uploaded, else False
+    """
+
+    # If S3 object_name was not specified, use file_name
+    if object_name is None:
+        object_name = file_name
+
+    # Upload the file
+    s3_client = boto3.client('s3', aws_access_key_id = private.AWS_ACCESS_KEY, aws_secret_access_key = private.AWS_SECRET_KEY)
+    try:
+        response = s3_client.upload_file(file_name, bucket, object_name)
+    except ClientError as e:
+        logging.error(e)
+        return False
+    return True
 
 # ------------------------------------ Main -------------------------------- #
 
@@ -121,11 +153,18 @@ def main():
 	api = tweepy.API(auth)
 	print("Authorized with Twitter API")
 
-	print("Streaming tweets")
-	stream_listener = StreamListener()
-	stream = tweepy.Stream(auth=api.auth, listener=stream_listener)
-	stream.filter(track = terms)
-	print("Streamed " + str(stream_listener.count) + " tweets")
+	print("Streaming Trump tweets")
+	stream_listener_Donny = StreamListener(streamTimeLimit, "D")
+	stream = tweepy.Stream(auth=api.auth, listener=stream_listener_Donny)
+	stream.filter(track = donnnyBoyTerms)
+	print("Streamed " + str(stream_listener_Donny.count) + " tweets")
+
+	
+	print("Streaming Clinton tweets")
+	stream_listener_Clinton = StreamListener(streamTimeLimit, "B")
+	stream = tweepy.Stream(auth=api.auth, listener=stream_listener_Clinton)
+	stream.filter(track = msLewinskyTerms)
+	print("Streamed " + str(stream_listener_Clinton.count) + " tweets")
 	
 
 if __name__ == "__main__":
