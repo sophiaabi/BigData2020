@@ -23,5 +23,8 @@ def index():
     cur.execute('''SELECT * FROM Candidates''')
     results = cur.fetchall()
     print(results)
-    trump_Positive = "Hello"
-    return render_template('index.html')
+    return render_template('index.html', Trump_Positive = str(results[0]['Positive']), Trump_Negative = str(results[0]['Negative']),
+                            Biden_Positive = str(results[1]['Positive']), Biden_Negative = str(results[0]['Negative']))
+
+if __name__ == "__main__":
+    app.run()
