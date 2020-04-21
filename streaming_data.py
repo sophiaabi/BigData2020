@@ -109,14 +109,14 @@ def exportCSV(canidateName):
 	print("Export data to csv: " + canidateName + "_" + csvFileName)
 	db = dataset.connect(sqlConnectionString)
 	result = db[sqlTableName].all()
-	newFileName = "data/" + canidateName + "_" + csvFileName
+	newFileName = "data/" + canidateName + "_" + csvFileName + ".csv"
 	freeze(result, format='csv', filename= newFileName)
 
 	if canidateName == "B":
 		bucket = "bd2020billtweets"
 	else:
 		bucket = "bd2020donaldtweets"
-	upload_file(newFileName, bucket )
+	upload_file(newFileName, bucket)
 
 
 # -------------------------------------- AWS Metzhods ----------------------------------- #
