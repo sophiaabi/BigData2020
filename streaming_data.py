@@ -19,7 +19,7 @@ csvFileName = "BD2020_" + str(datetime.now())
 
 donnnyBoyTerms = ["Donald Trump", "Trump", "Donald", "DonaldTrump"]
 
-msLewinskyTerms = ["Bill Clinton", "Bill", "Clinton", "BillClinton"]
+msLewinskyTerms = ["Joe Biden", "Biden", "Joe", "Biden"]
 
 sqlTableName = csvFileName + "_table"
 
@@ -113,7 +113,7 @@ def exportCSV(canidateName):
 	freeze(result, format='csv', filename= newFileName)
 
 	if canidateName == "B":
-		bucket = "bd2020billtweets"
+		bucket = "bd2020bidentweets"
 	else:
 		bucket = "bd2020donaldtweets"
 	upload_file(newFileName, bucket)
