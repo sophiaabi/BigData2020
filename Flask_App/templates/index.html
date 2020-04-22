@@ -106,12 +106,16 @@
     <section class="halfwidth" id="info">
       <p># Positive Tweets:</p>
       <p># Negative Tweets:</p>
-      <p>*insert tweet livestream here*</p>
+    {% for k in biden_tweets %}
+      <p>{{k.text}}</p>
+    {% endfor %}
     </section>
     <section class="halfwidth" id="info">
       <p># Positive Tweets:</p>
       <p># Negative Tweets:</p>
-      <p>*insert tweet livestream here*</p>
+    {% for t in trump_tweets %}
+      <p>{{t.text}}</p>
+    {% endfor %}
     </section>
   </article>
 
