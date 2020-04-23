@@ -24,7 +24,7 @@ def index():
     results = cur.fetchall()
     print(results)
     return render_template('index.html', Trump_Positive = str(results[0]['Positive']), Trump_Negative = str(results[0]['Negative']),
-                            Biden_Positive = str(results[1]['Positive']), Biden_Negative = str(results[0]['Negative']))
+                            Biden_Positive = str(results[1]['Positive']), Biden_Negative = str(results[1]['Negative']))
 
 if __name__ == "__main__":
     app.run()
