@@ -17,9 +17,9 @@ from botocore.exceptions import ClientError
 
 csvFileName = "BD2020_" + str(datetime.now())
 
-donnnyBoyTerms = ["Donald Trump", "Trump", "Donald", "DonaldTrump"]
+donnnyBoyTerms = ["TRUMP", "Trump", "trump"]
 
-msLewinskyTerms = ["Joe Biden", "Biden", "Joe", "Biden"]
+msLewinskyTerms = ["BIDEN", "Biden", "biden"]
 
 sqlTableName = csvFileName + "_table"
 
