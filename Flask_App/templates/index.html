@@ -16,67 +16,6 @@
 
     <!-- Core JS Files -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-    <!-- <script src={{ url_for('static', filename='homepage.js')}}></script> -->
-    <!-- <script type="text/javascript">
-      function color_func(states, state_key, i, map){
-            // overall map
-            if(map == 'overall'){
-              if((states[i]['Trump_Positive'] / (states[i]['Trump_Positive'] + states[i]['Trump_Negative'])) > (states[i]['Biden_Positive'] / (states[i]['Biden_Positive'] + states[i]['Biden_Negative'])))
-              {
-                $(document).ready(function() {
-                  $(state_key).css('fill', "#e82024");
-                });
-              }
-              else
-              {
-                $(document).ready(function() {
-                  $(state_key).css('fill', "#2e60d9");
-                });
-              }
-            }
-            //Trump map
-            else if (map == 'Trump') {
-              if(states[i]['Trump_Positive'] > states[i]['Trump_Negative'])
-              {
-                $(document).ready(function() {
-                  $(state_key).css('fill', "#20e884");
-                });
-              }
-              else
-              {
-                $(document).ready(function() {
-                  $(state_key).css('fill', "#e82024");
-                });
-              }
-            }
-            //Biden map
-            else if (map == 'Biden') {
-              if(states[i]['Biden_Positive'] > states[i]['Biden_Negative'])
-              {
-                $(document).ready(function() {
-                  $(state_key).css('fill', "#20e884");
-                });
-              }
-              else
-              {
-                $(document).ready(function() {
-                  $(state_key).css('fill', "#e82024");
-                });
-              }
-            }
-      }
-      // color_func({{states|safe}})
-
-    function loop_state(states, map){
-      var i;
-      for(i = 0; i < 50; i++){
-          var state_key='#'+states[i]['State_id'];
-          color_func(states, state_key, i, map);
-      }
-    }
-    loop_state({{states|safe}}, 'overall');
-    </script> -->
-
     <!-- Overall map -->
     <script type="text/javascript">
       function color_func(states, state_key, i){
@@ -102,7 +41,7 @@
         }
       }
     </script>
-
+    <!-- Trump map -->
     <script type="text/javascript">
       function color_func_trump(states, state_key, i){
         if(states[i]['Trump_Positive'] > states[i]['Trump_Negative']){
@@ -125,7 +64,7 @@
         }
       }
     </script>
-
+    <!-- Biden Map -->
     <script type="text/javascript">
       function color_func_biden(states, state_key, i){
         if(states[i]['Biden_Positive'] > states[i]['Biden_Negative']){
@@ -233,6 +172,7 @@
     </svg>
     <br>
   </div>
+
 
 <!-- Candidate Card -->
   <article class="presidents">

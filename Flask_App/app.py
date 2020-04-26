@@ -1,5 +1,7 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, request, session, redirect
 from flask_mysqldb import MySQL
+import pandas as pd
+import numpy as np
 import json
 
 app = Flask(__name__)
@@ -13,7 +15,7 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 mysql = MySQL(app)
 
 
-@app.route('/')
+@app.route('/', methods=("POST","GET"))
 def index():
     cur = mysql.connection.cursor()
 
@@ -84,9 +86,30 @@ def index():
 
     cur.execute('''SELECT * FROM States''')
     states = cur.fetchall()
+    states_df = pd.DataFrame(states)
     # print(states)
     return render_template('index.html', Trump_Positive = str(results[0]['Positive']), Trump_Negative = str(results[0]['Negative']),
-                            Biden_Positive = str(results[1]['Positive']), Biden_Negative = str(results[1]['Negative']), states=json.dumps(states))
+                            Biden_Positive = str(results[1]['Positive']), Biden_Negative = str(results[1]['Negative']),
+                            states=json.dumps(states), tables=[states_df.to_html(classes='data')], titles=states_df.columns.values)
+
+@app.route('/data', methods=("POST","GET"))
+def data():
+    cur = mysql.connection.cursor()
+
+    cur.execute('''SELECT * FROM Candidates''')
+    results = cur.fetchall()
+    results_df = pd.DataFrame(results)
+    del results_df['id']
+    del results_df['Total']
+
+    cur.execute('''SELECT * FROM States''')
+    states = cur.fetchall()
+    states_df = pd.DataFrame(states)
+    del states_df['Trump_Total']
+    del states_df['Biden_Total']
+
+    return render_template('data.html', tables=[states_df.to_html(classes='data')], tables2=[results_df.to_html(classes='data')] )
+
 
 if __name__ == "__main__":
     app.run()
