@@ -4,6 +4,37 @@ body{
 	background-color:rgb(185,185,185) ;
 }
 
+.buttons{
+	text-align:center;
+
+}
+
+#button{
+	display:inline-block;
+}
+
+button{
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    width:150px;
+    height:50px;
+    font-size:75%;
+    border-radius: 0%;
+    background: white;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+button:hover, button:focus{
+	background:black;
+	color:white;
+}
+
 p{
 	text-align:center;
 	font-size:150%;
