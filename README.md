@@ -10,13 +10,9 @@ Updates:
 - Added .gitignore so that we dont push meaningless/data sensitive files
 - You will need to create your own private.py file for this to work and add it to the main directory (ask Thad for access keys)
 - You will also need to download all the dependicies that we are using (pip3 install is perfect)
+-fully functioning frontend connected to the mySQL database
+-pyhtin scripts to read in s3 files, parse/filter based on sentiment and location, then write updated values to mySQL database
 
-ToDo:
-
-- Make this app available as a web application (using flask)
-- Filter tweets via tracked term (not sure how to do this)
-- Filter tweets via date 
-- Create a map on the web application
 
 Starting Flask App:
 
