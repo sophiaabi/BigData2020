@@ -1,4 +1,4 @@
-ar state_info = {
+var state_info = {
     'AL': {'lat': 32.3792233, 'lng': -86.3077368, 'capital': 'Montgomery'},
     'AK': {'lat': 58.3019444, 'lng': -134.4197221, 'capital': 'Juneau'},
     'AZ': {'lat': 33.4483771, 'lng': -112.0740373, 'capital': 'Phoenix'},
@@ -51,6 +51,11 @@ ar state_info = {
     'WY': {'lat': 41.1399814, 'lng': -104.8202462, 'capital': 'Cheyenne'}
 };
 
+// function test_func(states){
+//     console.log(states);
+// }
+// test_func({{states|safe}})
+
 function whichColor(temp, state)
 {
 	if(temp<=10)
@@ -58,35 +63,35 @@ function whichColor(temp, state)
 		$(document).ready(function() {
 			$(state).css('fill', "#0000FF");
 		});
-		
+
 	}
 	else if(temp<=30 && temp>10)
 	{
 		$(document).ready(function() {
 			$(state).css('fill', "#00FFFF");
 		});
-		
+
 	}
 	else if(temp<=50 && temp>30)
 	{
 		$(document).ready(function() {
 			$(state).css('fill', "#008000");
 		});
-		
+
 	}
 	else if(temp<=80 && temp>50)
-	{	
+	{
 		$(document).ready(function() {
 			$(state).css('fill', "#FFA500");
 		});
-		
+
 	}
 	else if(temp>80)
 	{
 		$(document).ready(function() {
 			$(state).css('fill', "#FF0000");
 		});
-		
+
 	}
 	else
 	{
@@ -106,7 +111,7 @@ Object.keys(state_info).forEach(function(key)
 	var info=state_info[key];
 	var lat=info.lat;
 	var long=info.lng;
-	
+
 	var url='https://api.forecast.io/forecast/603d6b1ba280da69332bb78816648dfb/'+lat.toString()+','+long.toString();
 	console.log(url);
 	$.ajax({url:url, dataType:"jsonp"}).then(function(data)

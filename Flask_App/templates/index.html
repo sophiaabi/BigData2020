@@ -15,7 +15,58 @@
     <link rel="stylesheet" href="{{url_for('static', filename='flask.css')}}">
 
     <!-- Core JS Files -->
-    <script src="homepage.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <!-- <script src={{ url_for('static', filename='homepage.js')}}></script> -->
+    <script type="text/javascript">
+      // function color_func(states){
+      //     var i;
+      //     for(i = 0; i < 30; i++){
+      //       console.log(states[i]['State_id']);
+      //       console.log((states[i]['Trump_Positive'] / (states[i]['Trump_Positive'] + states[i]['Trump_Negative'])), (states[i]['Biden_Positive'] / (states[i]['Biden_Positive'] + states[i]['Biden_Negative'])));
+      //       var state='#'+states[i]['State_id'];
+      //       console.log(state);
+      //
+      //       if((states[i]['Trump_Positive'] / (states[i]['Trump_Positive'] + states[i]['Trump_Negative'])) > (states[i]['Biden_Positive'] / (states[i]['Biden_Positive'] + states[i]['Biden_Negative'])))
+      //       {
+      //         $(document).ready(function() {
+      //           $(state).css('fill', "#FF0000");
+      //         });
+      //       }
+      //       else
+      //     	{
+      //         $(document).ready(function() {
+      //           $(state).css('fill', "#0000FF");
+      //         });
+      //     	}
+      //     }
+      // }
+      // color_func({{states|safe}})
+      function color_func(states, state_key, i){
+            if((states[i]['Trump_Positive'] / (states[i]['Trump_Positive'] + states[i]['Trump_Negative'])) > (states[i]['Biden_Positive'] / (states[i]['Biden_Positive'] + states[i]['Biden_Negative'])))
+            {
+              $(document).ready(function() {
+                $(state_key).css('fill', "#e82024");
+              });
+            }
+            else
+            {
+              $(document).ready(function() {
+                $(state_key).css('fill', "#2e60d9");
+              });
+            }
+      }
+      // color_func({{states|safe}})
+
+    function loop_state(states){
+      var i;
+      for(i = 0; i < 50; i++){
+          var state_key='#'+states[i]['State_id'];
+          color_func(states, state_key, i);
+      }
+    }
+    loop_state({{states|safe}});
+    </script>
+
   </head>
 
   <body>

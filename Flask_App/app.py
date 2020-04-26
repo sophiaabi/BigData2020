@@ -1,5 +1,6 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 from flask_mysqldb import MySQL
+import json
 
 app = Flask(__name__)
 
@@ -21,7 +22,7 @@ def index():
     #cur.execute('''INSERT INTO Candidates VALUES (1, 'Trump', 0, 0, 0)''')
     #cur.execute('''INSERT INTO Candidates VALUES (2, 'Biden', 0, 0, 0)''')
 
-    #cur.execute('''CREATE TABLE States(State_id VARCHAR(45), Trump_Total INTEGER, Trump_Positive INTEGER, Trump_Negative INTEGER, Biden_Total INTEGER, Biden_Positive INTEGER, Biden_Negative INTEGER) ''')
+    # cur.execute('''CREATE TABLE States(State_id VARCHAR(45), Trump_Total INTEGER, Trump_Positive INTEGER, Trump_Negative INTEGER, Biden_Total INTEGER, Biden_Positive INTEGER, Biden_Negative INTEGER) ''')
     # cur.execute('''INSERT INTO States VALUES ('AL', 0, 0, 0, 0, 0, 0)''')
     # cur.execute('''INSERT INTO States VALUES ('AK', 0, 0, 0, 0, 0, 0)''')
     # cur.execute('''INSERT INTO States VALUES ('AZ', 0, 0, 0, 0, 0, 0)''')
@@ -73,13 +74,19 @@ def index():
     # cur.execute('''INSERT INTO States VALUES ('WI', 0, 0, 0, 0, 0, 0)''')
     # cur.execute('''INSERT INTO States VALUES ('WY', 0, 0, 0, 0, 0, 0)''')
 
+    # cur.execute('''DROP TABLE States''')
+
     # mysql.connection.commit()
-    # return "done"
+
 
     cur.execute('''SELECT * FROM Candidates''')
     results = cur.fetchall()
+
+    cur.execute('''SELECT * FROM States''')
+    states = cur.fetchall()
+    # print(states)
     return render_template('index.html', Trump_Positive = str(results[0]['Positive']), Trump_Negative = str(results[0]['Negative']),
-                            Biden_Positive = str(results[1]['Positive']), Biden_Negative = str(results[1]['Negative']))
+                            Biden_Positive = str(results[1]['Positive']), Biden_Negative = str(results[1]['Negative']), states=json.dumps(states))
 
 if __name__ == "__main__":
     app.run()
