@@ -4,6 +4,53 @@ body{
 	background-color:rgb(185,185,185) ;
 }
 
+a:hover{
+	color:black;
+}
+
+a{
+	color:white;
+}
+
+.buttons{
+	text-align:center;
+
+}
+
+#positive{
+	color:#20e884;
+}
+
+#negative{
+	color:rgb(232, 32, 36);
+}
+
+#button{
+	display:inline-block;
+}
+
+button{
+    border: black;
+    border-style: solid;
+    border-width: 3px;
+    width:150px;
+    height:50px;
+    font-size:75%;
+    border-radius: 0%;
+    background: white;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+button:hover, button:focus{
+	background:black;
+	color:white;
+}
+
 p{
 	text-align:center;
 	font-size:150%;
@@ -39,10 +86,10 @@ p{
 }
 
 .halfwidth{
-	margin-top:3%;
+	margin-top:1%;
 	margin-left:10%;
 	margin-right:10%;
-	margin-bottom:3%;
+	margin-bottom:1%;
 	width:30%;
 	padding:1%;
 	box-sizing:border-box;

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>BIGDATA2020</title>
+    <title>BIGPOLITICS2020</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
@@ -15,14 +15,86 @@
     <link rel="stylesheet" href="{{url_for('static', filename='flask.css')}}">
 
     <!-- Core JS Files -->
-    <script src="homepage.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <!-- Overall map -->
+    <script type="text/javascript">
+      function color_func(states, state_key, i){
+              if((states[i]['Trump_Positive'] / (states[i]['Trump_Positive'] + states[i]['Trump_Negative'])) > (states[i]['Biden_Positive'] / (states[i]['Biden_Positive'] + states[i]['Biden_Negative'])))
+              {
+                $(document).ready(function() {
+                  $(state_key).css('fill', "#e82024");
+                });
+              }
+              else
+              {
+                $(document).ready(function() {
+                  $(state_key).css('fill', "#2e60d9");
+                });
+              }
+      }
+      function loop_state(){
+        var states = {{states|safe}}
+        var i;
+        for(i = 0; i < 50; i++){
+            var state_key='#'+states[i]['State_id'];
+            color_func({{states|safe}}, state_key, i);
+        }
+      }
+    </script>
+    <!-- Trump map -->
+    <script type="text/javascript">
+      function color_func_trump(states, state_key, i){
+        if(states[i]['Trump_Positive'] > states[i]['Trump_Negative']){
+          $(document).ready(function() {
+            $(state_key).css('fill', "#20e884");
+          });
+        }
+        else  {
+          $(document).ready(function() {
+            $(state_key).css('fill', "#e82024");
+          });
+        }
+      }
+      function loop_state_trump(){
+        var states = {{states|safe}}
+        var i;
+        for(i = 0; i < 50; i++){
+            var state_key='#'+states[i]['State_id'];
+            color_func_trump({{states|safe}}, state_key, i);
+        }
+      }
+    </script>
+    <!-- Biden Map -->
+    <script type="text/javascript">
+      function color_func_biden(states, state_key, i){
+        if(states[i]['Biden_Positive'] > states[i]['Biden_Negative']){
+          $(document).ready(function() {
+            $(state_key).css('fill', "#20e884");
+          });
+        }
+        else  {
+          $(document).ready(function() {
+            $(state_key).css('fill', "#e82024");
+          });
+        }
+      }
+      function loop_state_biden(){
+        var states = {{states|safe}}
+        var i;
+        for(i = 0; i < 50; i++){
+            var state_key='#'+states[i]['State_id'];
+            color_func_biden({{states|safe}}, state_key, i);
+        }
+      }
+    </script>
+
   </head>
 
   <body>
        <!--/. Sidebar navigation -->
     <nav class="navbar fixed-top ">
       <div class="container">
-        <a class="navbar-brand" href="index.html">BIGDATA2020</a>
+        <a class="navbar-brand" href="index.html">BIGPOLITICS2020</a>
       </div>
     </nav>
 
@@ -30,6 +102,15 @@
   <div class="container">
     <p>What people are tweeting about the presidential candidates across the USA<p>
   </div>
+ <!--Buttons for Map-->
+ <div class="buttons">
+  <p id="button">View: </p>
+  <button onclick="loop_state()" id="buttonO">Total Positive Sentiment</button>
+   <button onclick="loop_state_trump()" id="buttonT">Trump Sentiment</button>
+    <button onclick="loop_state_biden()" id="buttonB">Biden Sentiment</button>
+</div>
+
+
 
 <!-- Map -->
   <div class="wrapper">
@@ -91,6 +172,7 @@
     </svg>
     <br>
   </div>
+<p>To see state-specic numerical data, click <a href="data.html">here</a></p>
 
 <!-- Candidate Card -->
   <article class="presidents">
@@ -103,15 +185,17 @@
     <section class="halfwidth" id="trump">
       <img src="/static/trump.jpg">
     </section>
+    <!-- Biden Stats -->
     <section class="halfwidth" id="info">
-      <p># Positive Tweets:  {{ Biden_Positive }}</p>
-      <p># Negative Tweets: {{ Biden_Negative }}</p>
-      <p>*insert tweet livestream here*</p>
+      <p>Positive Tweets & Retweets:  <span id="positive">{{ Biden_Positive }}</span></p>
+      <p>Negative Tweets & Retweets: <span id="negative">{{ Biden_Negative }}</span></p>
+      <a class="twitter-timeline" href="https://twitter.com/JoeBiden?ref_src=twsrc%5Etfw">Tweets by JoeBiden</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </section>
+    <!-- Trump Stats -->
     <section class="halfwidth" id="info">
-      <p># Positive Tweets: {{ Trump_Positive }}</p>
-      <p># Negative Tweets: {{ Trump_Negative}}</p>
-      <p>*insert tweet livestream here*</p>
+      <p>Positive Tweets & Retweets: <span id="positive">{{ Trump_Positive }}</span></p>
+      <p>Negative Tweets & Retweets: <span id="negative">{{ Trump_Negative}}</span></p>
+      <a class="twitter-timeline" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">Tweets by realDonaldTrump</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </section>
   </article>
 
