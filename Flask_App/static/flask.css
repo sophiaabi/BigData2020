@@ -9,6 +9,14 @@ body{
 
 }
 
+#positive{
+	color:#20e884;
+}
+
+#negative{
+	color:rgb(232, 32, 36);
+}
+
 #button{
 	display:inline-block;
 }
