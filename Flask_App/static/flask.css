@@ -4,6 +4,14 @@ body{
 	background-color:rgb(185,185,185) ;
 }
 
+a:hover{
+	color:black;
+}
+
+a{
+	color:white;
+}
+
 .buttons{
 	text-align:center;
 
